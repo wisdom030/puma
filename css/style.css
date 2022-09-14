@@ -4,6 +4,10 @@
 }
 
 @media all and (min-width: 320px) {
+  #imgSlide,
+  #pc {
+    display: none;
+  }
   header {
     width: 100%;
     height: 70px;
@@ -75,6 +79,16 @@
     color: white;
     margin-left: 20px;
   }
+  .mText {
+    height: 160px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .mTextTwo {
+    height: 220px;
+    width: 300px;
+    margin: 0 auto;
+  }
   .carousel-item h4 {
     text-align: center;
     margin-top: 20px;
@@ -108,85 +122,89 @@
     background: #181818;
     color: white;
   }
-  footer h4 {
+  footer .mobileFooter {
+    width: 300px;
+    margin: 0 auto;
+  }
+  footer .mobileFooter h4 {
     margin-bottom: 30px;
   }
-  footer .que:first-child {
+  footer .mobileFooter .que:first-child {
     border-top: 1px solid black;
   }
-  footer .que {
+  footer .mobileFooter .que {
     position: relative;
     padding: 17px 0;
     cursor: pointer;
     font-size: 14px;
     border-bottom: 1px solid #dddddd;
   }
-  footer .anw {
+  footer .mobileFooter .anw {
     display: none;
     overflow: hidden;
     font-size: 14px;
     padding: 27px 0;
   }
-  footer .anw span {
+  footer .mobileFooter .anw span {
     color: #818181;
   }
-  footer .anw::before {
+  footer .mobileFooter .anw::before {
     display: inline-block;
     font-size: 14px;
     font-weight: bold;
     color: #666;
     margin: 0 5px;
   }
-  footer .arrow-wrap {
+  footer .mobileFooter .arrow-wrap {
     position: absolute;
     top: 50%;
     right: 10px;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
   }
-  footer .que .arrow-top {
+  footer .mobileFooter .que .arrow-top {
     display: none;
   }
-  footer .que .arrow-bottom {
+  footer .mobileFooter .que .arrow-bottom {
     display: block;
   }
-  footer .que.on .arrow-bottom {
+  footer .mobileFooter .que.on .arrow-bottom {
     display: none;
   }
-  footer .que.on .arrow-top {
+  footer .mobileFooter .que.on .arrow-top {
     display: block;
   }
-  footer h4 {
+  footer .mobileFooter h4 {
     padding: 100px 0 0 20px;
   }
-  footer input {
+  footer .mobileFooter input {
     background: #181818;
     border: 1px solid white;
     padding: 10px 100px 10px 0px;
     color: white;
     margin-left: 20px;
   }
-  footer input::-webkit-input-placeholder {
+  footer .mobileFooter input::-webkit-input-placeholder {
     margin-right: 100px;
     text-align: center;
   }
-  footer input:-ms-input-placeholder {
+  footer .mobileFooter input:-ms-input-placeholder {
     margin-right: 100px;
     text-align: center;
   }
-  footer input::-ms-input-placeholder {
+  footer .mobileFooter input::-ms-input-placeholder {
     margin-right: 100px;
     text-align: center;
   }
-  footer input::placeholder {
+  footer .mobileFooter input::placeholder {
     margin-right: 100px;
     text-align: center;
   }
-  footer #Accordion_wrap {
+  footer .mobileFooter #Accordion_wrap {
     width: 280px;
     margin-left: 20px;
   }
-  footer .sns {
+  footer .mobileFooter .sns {
     width: 200px;
     text-align: center;
     display: -webkit-box;
@@ -198,39 +216,39 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  footer .sns a {
+  footer .mobileFooter .sns a {
     text-decoration: none;
   }
-  footer .sns a i {
+  footer .mobileFooter .sns a i {
     color: white;
   }
-  footer .trac {
+  footer .mobileFooter .trac {
     text-align: center;
   }
-  footer .trac a {
+  footer .mobileFooter .trac a {
     text-decoration: none;
     color: white;
   }
-  footer .footerLast select {
+  footer .mobileFooter .footerLast select {
     padding: 5px 100px;
     background: transparent;
     color: white;
     margin: 30px 0 30px 20px;
   }
-  footer .footerLast span {
+  footer .mobileFooter .footerLast span {
     margin-left: 20px;
     font-size: 12px;
   }
-  footer .footerLast a {
+  footer .mobileFooter .footerLast a {
     color: #818181;
     text-decoration: none;
     margin-left: 20px;
     font-size: 12px;
   }
-  .footerWrap {
+  footer .footerWrap {
     display: none;
   }
-  .pFooter {
+  footer .pFooter {
     display: none;
   }
 }

@@ -65,3 +65,5 @@ $("#tabMenu").click(function() {
 $("#close").click(function() {
 	$(".mNavi").fadeOut();
 });
+
+alert("포트폴리오용입니다.");
