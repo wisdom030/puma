@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>푸마</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="img/logo.png" alt="로고">
+    </a>
+    <ul class="navi">
+      <li><a href="#">여성</a>
+        <div class="subMenuWrap">
+          <div class="subMenuBox">
+            <div class="subMenu">
+              <a class="subTitle" href="#">HOOK 컬렉션</a>
+              <a href="#">GV 스폐셜</a>
+              <a href="#">Silpstream</a>
+              <a href="#">TORI</a>
+              <a href="#">STAY FEARLESS</a>
+              <a href="#">지속가능성</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">신발</a>
+              <a href="#">라이프스타일</a>
+              <a href="#">러닝</a>
+              <a href="#">트레이닝</a>
+              <a href="#">골프</a>
+              <a href="#">모터스포츠</a>
+              <a href="#">샌들 & 슬리퍼</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">자켓</a>
+              <a href="#">크루넥 & 후드티</a>
+              <a href="#">탑 & 티셔츠</a>
+              <a href="#">스포츠 브라</a>
+              <a href="#">팬츠</a>
+              <a href="#">숏 팬츠</a>
+              <a href="#">쉐르파 & 다운자켓</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">용품</a>
+              <a href="#">가방</a>
+              <a href="#">모자&헤드웨어</a>
+              <a href="#">양말</a>
+              <a href="#">기타</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">스포츠</a>
+              <a href="#">러닝</a>
+              <a href="#">트레이닝 & 짐</a>
+              <a href="#">골프</a>
+              <a href="#">모더스포츠</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">남성</a>
+        <div class="subMenuWrap">
+          <div class="subMenuBox">
+            <div class="subMenu">
+              <a class="subTitle" href="#">SlipStream</a>
+              <a href="#">아미 트레이너 뮬</a>
+              <a href="#">스웨이드</a>
+              <a href="#">뮬</a>
+              <a href="#">축구화</a>
+              <a href="#">스피드캣</a>
+              <a href="#">지속가능성</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">신발</a>
+              <a href="#">라이프스타일</a>
+              <a href="#">러닝</a>
+              <a href="#">모터스포츠</a>
+              <a href="#">골프</a>
+              <a href="#">농구</a>
+              <a href="#">축구</a>
+              <a href="#">샌들 & 슬리퍼</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">의류</a>
+              <a href="#">자켓</a>
+              <a href="#">후드티 & 크루</a>
+              <a href="#">탑 & 티셔츠</a>
+              <a href="#">팬츠</a>
+              <a href="#">숏 팬츠</a>
+              <a href="#">쉐르파 & 다운자켓</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">용품</a>
+              <a href="#">가방</a>
+              <a href="#">모자&헤드웨어</a>
+              <a href="#">양말</a>
+              <a href="#">기타</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">스포츠</a>
+              <a href="#">축구</a>
+              <a href="#">러닝</a>
+              <a href="#">트레이닝 & 짐</a>
+              <a href="#">골프</a>
+              <a href="#">모더스포츠</a>
+              <a href="#">농구</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">아동</a>
+        <div class="subMenuWrap">
+          <div class="subMenuBox">
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">신발</a>
+              <a href="#">라이프 스타일</a>
+              <a href="#">축구화</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo"  href="#">의류</a>
+              <a href="#">상의</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">악세사리</a>
+              <a href="#">백팩</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">스포츠</a>
+        <div class="subMenuWrap">
+          <div class="subMenuBox">
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">러닝 & 트레이닝</a>
+              <a href="#">Nitro</a>
+              <a href="#">Men's Performance</a>
+              <a href="#">First Mile</a>
+              <a href="#">Karmen</a>
+              <a href="#">Exhale</a>
+              <a href="#">X-Tricot</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">농구</a>
+              <a href="#">LaMelo Ball</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">축구</a>
+              <a href="#">AC 밀란</a>
+              <a href="#">맨체스터 시티</a>
+              <a href="#">BVB</a>
+              <a href="#">Neymar Jr</a>
+              <a href="#">Future & Ultra</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">모터스포츠</a>
+              <a href="#">BMW Motorsports</a>
+              <a href="#">Ferrari</a>
+              <a href="#">Mercedes AMG Petronas</a>
+              <a href="#">Porsche Design / Legacy</a>
+              <a href="#">Speedcat</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">기타</a>
+              <a href="#">골프</a>
+              <a href="#">배구</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">컬렉션</a>
+        <div class="subMenuWrap">
+          <div class="subMenuBox">
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">파트너쉽</a>
+              <a href="#">아미</a>
+              <a href="#">가필드</a>
+              <a href="#">버터 굿즈</a>
+              <a href="#">리버티</a>
+              <a href="#">마인크래프트</a>
+              <a href="#">메종키츠네</a>
+              <a href="#">보그 컬렉션</a>
+              <a href="#">팔로모 스페인</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">라이프스타일</a>
+              <a href="#">HOOK 컬렉션</a>
+              <a href="#">GV 스페셜</a>
+              <a href="#">Slipstream</a>
+              <a href="#">Wave Flip</a>
+              <a href="#">두아리파 컬렉션</a>
+              <a href="#">젠지</a>
+              <a href="#">아미 트레이너 뮬</a>
+              <a href="#">T7</a>
+              <a href="#">코카콜라 컬렉션</a>
+              <a href="#">토리</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">세일</a>
+        <div class="subMenuWrap">
+          <div class="subMenuBox">
+            <div class="subMenu">
+              <a class="subTitle" href="#">추석 스페셜<br>콜라보레이션</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">여성</a>
+              <a href="#">신발</a>
+              <a href="#">의류</a>
+              <a href="#">용품</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">남성</a>
+              <a href="#">신발</a>
+              <a href="#">의류</a>
+              <a href="#">용품</a>
+            </div>
+            <div class="subMenu">
+              <a class="subTitleTwo" href="#">아동</a>
+              <a href="#">신발</a>
+              <a href="#">용품</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="mNavi">
+      <i id="close" class="fa-solid fa-xmark"></i>
+      <a href="#"><p>여성<span><i class="fa-solid fa-angle-right"></i></span></p></a><br>
+      <a href="#"><p>남성<span><i class="fa-solid fa-angle-right"></i></span></p></a><br>
+      <a href="#"><p>아동<span><i class="fa-solid fa-angle-right"></i></span></p></a><br>
+      <a href="#"><p>스포츠<span><i class="fa-solid fa-angle-right"></i></span></p></a><br>
+      <a href="#"><p>컬렉션<span><i class="fa-solid fa-angle-right"></i></span></p></a><br>
+      <a href="#"><p>세일<span><i class="fa-solid fa-angle-right"></i></span></p></a>
+    </div>
+    <div class="menu">
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+      <a href="#">
+        <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+      <a href="#">
+        <i id="tabMenu" class="fa-solid fa-grip-lines"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- 모바일 -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="mobile"  class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#">
+          <img src="img/Mimg1.webp" class="d-block w-100" alt="GV 스페셜">
+        </a>
+        <p>GV 스페셜</p>
+        <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/Mimg2.webp" class="d-block w-100" alt="푸마 X 훅 컬렉션 출시">
+        </a>
+        <p>푸마 X 훅 컬렉션 출시</p>
+        <p><button type="button" class="btn btn-dark">컬렉션 구매하기</button></p>  
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/Mimg3.webp" class="d-block w-100" alt="SPECIAL SALE">
+        </a>
+        <h4>SPECIAL SALE</h4>
+        <p>~UP TO 70%</p>
+        <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- pc -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="imgSlide" class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img1.webp" class="d-block w-100" alt="GV 스페셜">
+        <div class="text">
+          <p>GV 스페셜</p>
+          <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img2.webp" class="d-block w-100" alt="푸마 X 훅 컬렉션 출션">
+        <div class="text">
+          <p>푸마 X 훅 컬렉션 출션</p>
+          <p><button type="button" class="btn btn-dark">컬렉션 구매하기</button></p> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img3.webp" class="d-block w-100" alt="SPECIAL SALE">
+        <div class="text">
+          <h4>SPECIAL SALE</h4>
+          <p>~UP TO 70%</p>
+          <p><button type="button" class="btn btn-dark">상품 구매하기</button></p> 
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper1.webp" alt="">
+            <p>GV 스페셜/GV Special</p>
+            <p>99,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper2.webp" alt="">
+            <p>훅 티/HOOK Tee</p>
+            <p>49,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper3.webp" alt="">
+            <p>다비에이트 나이트로 엘리트 레이서 트랙스 미스/Deviate Nitro Elite Racer TS</p>
+            <p>269,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper4.webp" alt="">
+            <p>훅 스웨트팬츠/HOOK Sweatpants</p>
+            <p>89,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper5.webp" alt="">
+            <p>유니 T7 파이핑 트랙 자켓/T7 Piping Track Jacket KR</p>
+            <p>109,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper6.webp" alt="">
+            <p>울트라 매치 TT/ULTRA MATCH TT</p>
+            <p>109,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper7.webp" alt="">
+            <p>다비에이트 나이트로 엘리트 레이서 트랙스 미스/Deviate Nitro Elite Wns x TS</p>
+            <p>269,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper8.webp" alt="">
+            <p>울트라 엘티메이트 MG/ULTRA ULTIMATE MG</p>
+            <p>259,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper9.webp" alt="">
+            <p>MB.01 로 디스코/MB.01 Lo Disco</p>
+            <p>159,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper10.webp" alt="">
+            <p>RBD 게임 로우/RBD Game Low</p>
+            <p>79,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper11.webp" alt="">
+            <p>MB.01 Lo</p>
+            <p>159,000원</p>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <div class="swiper">
+            <img src="img/swiper12.webp" alt="">
+            <p>메이즈 샌들 우먼즈 미스매치/Mayze Sandal Wns Mismatched</p>
+            <p>89,000원</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- 모바일 -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="mobile" class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#">
+          <img src="img/Mimg4.webp" class="d-block w-100" alt="GV 스페셜">
+        </a>
+        <p>클럽 존</p>
+        <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/Mimg5.webp" class="d-block w-100" alt="푸마 X 훅 컬렉션 출시">
+        </a>
+        <h4>푸마 X 트랙스미스</h4>
+        <p>다비에이트 나이트로<br>
+        엘리트 레이서 트랙스미스</p>
+        <p><button type="button" class="btn btn-dark">여성용 구매하기</button></p>
+        <p><button type="button" class="btn btn-dark">남성용 구매하기</button></p>  
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="mobile" class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#">
+          <img src="img/Mimg6.webp" class="d-block w-100" alt="GV 스페셜">
+        </a>
+        <h4>SLIPSTREAM</h4>
+        <h4>NCT 127 착장 의류 출시</h4>
+        <p><button type="button" class="btn btn-dark">캠페인 바로가기</button></p>
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/Mimg7.webp" class="d-block w-100" alt="푸마 X 훅 컬렉션 출시">
+        </a>
+        <h4>푸마 X 코카콜라<br>
+        엘리트 레이서 트랙스미스</p>
+        <p><button type="button" class="btn btn-dark">상품 구매하기</button></p> 
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="mobile" class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#">
+          <img src="img/Mimg8.jpeg" class="d-block w-100" alt="GV 스페셜">
+        </a>
+        <h4>PUMA X VOGUE</h4>
+        <p>푸마 X 보그 컬렉션</p>
+        <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+      </div>
+      <div class="carousel-item">
+        <a href="#">
+          <img src="img/Mimg9.jpeg" class="d-block w-100" alt="푸마 X 훅 컬렉션 출시">
+        </a>
+        <h4>PUMA X DUA LIPA</h4>
+        <p>두아리파 컬렉션</p>
+        <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- pc -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img4.webp" class="d-block w-100" alt="PUMA X PALOMO SPAIN">
+        <div class="text">
+          <h4>PUMA X PALOMO SPAIN</h4>
+          <p>푸마 X 팔로모 스페인</p>
+          <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img5.webp" class="d-block w-100" alt="클럽 존">
+        <div class="text">
+          <p>클럽 존</p>
+          <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img6.webp" class="d-block w-100" alt="푸마 X 트랙스미스">
+        <div class="text">
+          <h4>푸마 X 트랙스미스</h4>
+          <p><button type="button" class="btn btn-dark">여성용 구매하기</button></p>
+          <p><button type="button" class="btn btn-dark">남성용 구매하기</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img7.webp" class="d-block w-100" alt="SLIPSTREAM">
+        <div class="text">
+          <h4>SLIPSTREAM</h4>
+          <h4>NCT 127 착장 의류 출시</h4>
+          <p><button type="button" class="btn btn-dark">캠페인 구매하기</button></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img8.webp" class="d-block w-100" alt="PUMA X COCA COLA">
+        <div class="text">
+          <h4>PUMA X COCA COLA</h4>
+          <p>푸마 X 코카콜라</p>
+          <p><button type="button" class="btn btn-dark">상품 구매하기</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <!-- 모바일 -->
+    <div class="mobileFooter">
+      <h4>뉴스레터 구독하기</h4>
+      <input type="text" placeholder="이메일">
+      <div id="Accordion_wrap">
+        <div class="que">
+        <span>Support</span>
+          <div class="arrow-wrap">
+            <span class="arrow-top"><i class="fa-solid fa-angle-down"></i></span>
+            <span class="arrow-bottom"><i class="fa-solid fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <div class="anw">
+          <span>자주 물어보는 질문</span><br>
+          <span>환불 정책</span><br>
+          <span>고객센터</span><br>
+          <span>개인정보처리방침</span><br>
+          <span>매장위치</span><br>
+          <span>이용약관</span><br>
+          <span>계정정보</span><br> 
+          <span>구매이용약관</span><br>
+          <span>배송관련정보</span><br>
+        </div>
+
+        <div class="que">
+          <span>About PUMA(외부링크연결)</span>
+            <div class="arrow-wrap">
+              <span class="arrow-top"><i class="fa-solid fa-angle-down"></i></span>
+              <span class="arrow-bottom"><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+          </div>
+          <div class="anw">
+            <span>Company</span><br>
+            <span>Corporate News</span><br>
+            <span>Press Center</span><br>
+            <span>Investors</span><br>
+            <span>Sustainability</span><br>
+            <span>Careers</span><br>
+          </div>
+        
+      </div>
+
+      <div class="sns">
+        <a href="#">
+          <i class="fa-brands fa-square-facebook fa-2x"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-youtube fa-2x"></i>
+        </a>
+      </div>
+
+      <div class="trac">
+        <a href="#">
+          <img src="img/footer1.svg" alt="trac">
+        </a>
+        <a href="#">
+          TRAIN WITH THE FASTEST
+        </a>
+      </div>
+
+      <div class="footerLast">
+        <select name="Mlanguage">
+          <option value="Mkor">한국어</option>
+        </select><br>
+        <span>© PUMA Korea Ltd, 2021. All Rights Reserved.</span><br>
+        <a href="#">
+          Imprint & Legal Data
+        </a>
+      </div>
+    </div>
+
+    <!-- pc -->
+    <div class="footerWrap">
+      <a href="#" class="footerLogo">
+        <img src="img/logo.png" alt="로고">
+      </a>
+      <div class="link">
+        <div class="support">
+          <div class="lineSupport"></div>
+          <h4>Support</h4>
+          <a href="#">자주 물어보는 질문</a><br>
+          <a href="#">고객센터</a><br>
+          <a href="#">매장위치</a><br>
+          <a href="#">계정정보</a><br>
+          <a href="#">배송관련정보</a><br>
+          <a href="#">환불 정책</a><br>
+          <a href="#">개인정보처리방침</a><br>
+          <a href="#">이용약관</a><br>
+          <a href="#">구매이용약관</a>
+        </div>
+        <div class="about">
+          <div class="lineAbout"></div>
+          <h4>About PUMA (외부링크연결)</h4>
+          <a href="#">Company</a><br>
+          <a href="#">Corporate News</a><br>
+          <a href="#">Press Center</a><br>
+          <a href="#">Investors</a><br>
+          <a href="#">Sustainability</a><br>
+          <a href="#">Careers</a>
+        </div>
+        <div class="more">
+          <div class="lineMore"></div>
+          <h4>More Inspiration</h4>
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-youtube fa-2x"></i>
+        </div>
+      </div>
+      <div class="news">
+        <h4>뉴스레터 구독하기</h4>
+        <input type="text" placeholder="이메일">
+      </div>
+      <div class="train">
+        <div class="lineTrain"></div>
+        <img src="img/footer1.svg" alt="로고">
+        <p>TRAIN WITH THE FASTEST</p>
+      </div>
+      <div class="footerLine"></div>
+      <select name="language">
+        <option value="kor">한국어</option>
+      </select>
+      <p>© PUMA Korea Ltd, 2021. All Rights Reserved.</p>
+      <a class="im" href="#">Imprint & Legal Data</a>
+    </div>
+  </footer>
+  <div class="pFooter">
+    <p class="pFooterWrap">푸마코리아 유한회사 I 서울 특별시 중구 을지로 100, 6층 (을지로2가, 파인에비뉴)<br>
+    대표자 : 이나영<br>
+    사업자 등록 번호 : 108-81-77705<br>
+    대표 번호 : 02-2136-1000 / 이메일 : webmaster.kr@puma.com<br>
+    오프라인스토어 문의 : 080-082-0888 (평일 10시~17시, 점심시간 12시~14시 제외), 주말 및 공휴일(임시공휴일 포함) 제외<br>
+    온라인스토어 문의 : 080-857-0777 (평일 10시~17시, 점심시간 12시~14시 제외), 주말 및 공휴일(임시공휴일 포함) 제외<br>
+    통신판매업신고 : 2017-서울중구-0863<br>
+    개인정보 보호 책임자 : 서현아<br></p>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
